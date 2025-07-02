@@ -1,0 +1,13 @@
+{
+    "default": {
+      "require": ["features/**/*.js"],
+      "format": [
+        "progress-bar",                        
+        "html:test-results/reports/html-formatter.html"
+         
+      ],
+      "retry": 2,                              
+      "retryTagFilter": "@flaky"                  
+    }
+  }
+ 
